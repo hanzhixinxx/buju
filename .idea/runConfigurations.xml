@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RunConfigurationProducerService">
+    <option name="ignoredProducers">
+      <set>
+        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
+        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
+        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
+      </set>
+    </option>
+  </component>
+</project>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context=".MainActivity"
+android:orientation="vertical">
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF00FF"
+
+    android:text="Button" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="#EE2C2C"
+    android:text="Button"
+    android:layout_marginTop="10dp" />
+<Button
+    android:id="@+id/button3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#8E388E"
+    android:text="Button"
+    android:layout_marginTop="10dp"  />
+<Button
+    android:id="@+id/button4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#E0EEE0"
+    android:text="Button"
+    android:layout_marginTop="10dp"  />
+<Button
+    android:id="@+id/button5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#9AC0CD"
+    android:text="Button"
+    android:layout_marginTop="10dp"  />
+<Button
+    android:id="@+id/button6"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#8E388E"
+    android:text="Button"
+    android:layout_marginTop="10dp" />
+<Button
+    android:id="@+id/button7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#8E388E"
+    android:text="Button"
+    android:layout_marginTop="10dp"  />
+</LinearLayout>
